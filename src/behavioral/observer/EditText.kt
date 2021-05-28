@@ -1,4 +1,4 @@
-package observer
+package behavioral.observer
 
 import kotlin.properties.Delegates
 
