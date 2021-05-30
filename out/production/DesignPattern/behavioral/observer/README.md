@@ -9,6 +9,9 @@
    - [x] 인터페이스 속성으로 갖음
    - [x] 변경할 값을 by Delegates 로 처리 -> 변경 전 후 값을 인터페이스로 넘김 
 
-> // output  
-> oldText: $41 -> newText: LA Town <br>
-  oldText size: 3 -> newText size: 7
+### 실행 출력
+```
+oldText: $41 -> newText: LA Town <br>
+oldText size: 3 -> newText size: 7
+```
+``
