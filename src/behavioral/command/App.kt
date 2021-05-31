@@ -10,7 +10,7 @@ import behavioral.command.menu.option.NoneOptImpl
 import behavioral.command.receivers.BankApi
 import behavioral.command.receivers.Cooker
 import behavioral.command.receivers.Deliver
-import behavioral.command.request.CardProcessRequest
+import behavioral.command.request.CardPaymentRequest
 import behavioral.command.request.CookRequest
 import behavioral.command.request.DeliverCallRequest
 
@@ -26,7 +26,7 @@ fun main(){
         )
 
         process(
-            CardProcessRequest(BankApi(), totalPrice()),
+            CardPaymentRequest(BankApi(), totalPrice()),
             DeliverCallRequest(Deliver()),
             CookRequest(Cooker())
         )
