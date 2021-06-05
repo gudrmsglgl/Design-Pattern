@@ -1,6 +1,6 @@
 ## Visitor Pattern
 > 로직을 객체 구조에서 분리 시키는 디자인 패턴 <br>
-> 비슷한 종류의 객체들을 가진 그룹에서 작업을 수행할 때 사용
+> 비슷한 종류의 객체들을 가진 그룹에서 작업을 수행할 때 사용 <br>
 > Double Dispatch 하여 클래스를 변경하지 않고 메서드만 추가하는 패턴
 
 
@@ -15,13 +15,7 @@
     
 ### 실행 출력
 ```
-Q Skill Execute
-E Skill Execute
-R is Ultimate Skill Execute
-W Skill Execute
-======================after remake======================
-Q skill is Remake Skill Execute
-E Skill Execute
-R is Ultimate Skill Execute
-W Skill Execute
+카드 상품 목록: [ What is Justice?, DesignPattern, Banana, Apple ]
+총 구매 가격: 160
+총 무게: 10kg
 ```             
